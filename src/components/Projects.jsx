@@ -1,4 +1,10 @@
+import imagenrecepcion from "../assets/images/PORTADO DEL SISTEMA HOTELERO.png";
+import imagedemoblaze from "../assets/images/demoblaze.jpg";
+import imagesauce from "../assets/images/souce.jpg";
+import imagespostman from "../assets/images/perfil Postman.PNG";
+
 import { SiPostman } from "react-icons/si";
+
 function Projects() {
   return (
     <section id="projects" className="projects">
@@ -7,7 +13,7 @@ function Projects() {
       <div className="projects-grid">
         <div className="project-card">
           <img
-            src="/images/PORTADO DEL SISTEMA HOTELERO.png"
+            src={imagenrecepcion}
             alt="SauceDemo"
             className="project-image"
           />
@@ -37,11 +43,7 @@ function Projects() {
       <br />
       <div className="projects-grid">
         <div className="project-card">
-          <img
-            src="/images/demoblaze.jpg"
-            alt="DemoBlaze"
-            className="project-image"
-          />
+          <img src={imagedemoblaze} alt="DemoBlaze" className="project-image" />
 
           <h3>🛒 DemoBlaze Testing</h3>
           <br />
@@ -69,11 +71,7 @@ function Projects() {
 
         <div className="projects-grid">
           <div className="project-card">
-            <img
-              src="/images/souce.jpg"
-              alt="SauceDemo"
-              className="project-image"
-            />
+            <img src={imagesauce} alt="SauceDemo" className="project-image" />
 
             <h3>🛒 SauceDemo Testing</h3>
             <br />
@@ -100,11 +98,7 @@ function Projects() {
         </div>
 
         <div className="project-card">
-          <img
-            src="/images/perfil Postman.PNG"
-            alt="SauceDemo"
-            className="project-image"
-          />
+          <img src={imagepostman} alt="Postman" className="project-image" />
           <h3>
             <SiPostman style={{ marginRight: "8px" }} />
             API Testing with Postman
