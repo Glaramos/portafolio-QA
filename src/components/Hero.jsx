@@ -7,7 +7,7 @@ function Hero() {
 
       <p>
         Passionate about software quality, manual testing, API testing and bug
-        reporting.TODO OK
+        reporting.
       </p>
 
       <div className="hero-buttons">
