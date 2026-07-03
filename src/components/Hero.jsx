@@ -15,7 +15,7 @@ function Hero() {
           View Projects
         </a>
         <a
-          href="https://drive.google.com/file/d/1LJKd8JxBatBwYwGgf3Ov_bwmWKpzXapv/view?usp=sharing"
+          href="https://drive.google.com/file/d/1LJKd8JxBatBwYwGgf3Ov_bwmWKpzXapv/view?usp=sharing" 
           
           download
           className="hero-btn"
