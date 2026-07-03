@@ -16,6 +16,7 @@ function Hero() {
         </a>
         <a
           href="https://drive.google.com/file/d/1LJKd8JxBatBwYwGgf3Ov_bwmWKpzXapv/view?usp=sharing"
+          
           download
           className="hero-btn"
           target="_blank"
